@@ -1,5 +1,5 @@
-number = int(input("Введите число: "))
-counter = 0
-while counter <= number:
-    print(("Счетчик =", number))
-    number -= 1
+password = "stop"
+while input("Введите пароль: ") != password:
+    print("Пароль не верен, попробуйте снова!")
+else:
+        print("Пароль верен!")
